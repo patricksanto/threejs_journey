@@ -35,6 +35,14 @@ window.addEventListener('resize', () => {
 
 })
 
+window.addEventListener('dblclick', () => {
+    if(!document.fullscreenElement){
+        canvas.requestFullscreen()
+    }else{
+        document.exitFullscreen()
+    }
+})
+
 // Scene
 const scene = new THREE.Scene()
 
