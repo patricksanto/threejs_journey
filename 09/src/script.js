@@ -15,6 +15,8 @@ const scene = new THREE.Scene()
 const geometry = new THREE.BufferGeometry()
 
 const count = 2000
+
+
 const positionArray = new Float32Array(count * 3 * 3)
 
 for (let i = 0; i < count * 3 * 3; i++) {
