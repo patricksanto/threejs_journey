@@ -30,7 +30,7 @@ fontLoader.load(
     (font) =>
     {
         const textGeometry = new TextGeometry(
-            'Gustavo Otero <3',
+            'Patrick Santos',
             {
                 font: font,
                 size: 0.5,
